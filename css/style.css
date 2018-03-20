@@ -1,0 +1,480 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.main {
+    background: #00C4F4;
+}
+
+/*header {*/
+    /*padding: 35px 70px;*/
+/*}*/
+
+.logo-text {
+    font-family: Roboto, sans-serif;
+    /*font-size: 40px;*/
+    font-weight: 700;
+    color: white;
+    text-transform: lowercase;
+    /*letter-spacing: -1.3px;*/
+    /*line-height: 40px;*/
+}
+
+main {
+    display: flex;
+    /*width: 100%;*/
+    align-items: center;
+    /*padding: 40px 150px;*/
+}
+
+.half-column {
+    /*flex: 0 0 50%;*/
+    /*padding: 0 50px;*/
+}
+
+.large-title {
+    font-family: Lato, sans-serif;
+    /*font-size: 94px;*/
+    font-weight: 900;
+    text-transform: uppercase;
+    /*line-height: 105px;*/
+    margin-bottom: 0;
+    color: white;
+}
+
+main hr {
+    border: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    height: 3px;
+    background: white;
+    /*width: 90%;*/
+    /*margin-left: 10px;*/
+    /*margin-top: 15px;*/
+}
+
+main h4 {
+    font-family: Lato, sans-serif;
+    font-weight: 300;
+    /*font-size: 52px;*/
+    text-transform: uppercase;
+    color: white;
+    /*margin-top: 30px;*/
+}
+
+main img {
+    width: 100%;
+    height: auto;
+}
+
+.follow-up {
+    background: #E8E53E;
+    /*padding: 50px 0;*/
+}
+
+.follow-up-text {
+    /*width: 50%;*/
+    margin: 0 auto;
+}
+
+.follow-up p {
+    font-family: Lato, sans-serif;
+    /*font-size: 22px;*/
+    color: #354e4e;
+    text-align: center;
+}
+
+.form {
+    /*padding: 100px 0;*/
+}
+
+form {
+    /*width: 20%;*/
+    margin: 0 auto;
+    display: block;
+}
+
+label {
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    /*font-size: 16px;*/
+}
+
+input {
+    margin-top: 10px;
+    width: 100%;
+    display: block;
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    /*font-size: 24px;*/
+    color: #00C4F4;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    outline: 0;
+}
+
+input:focus {
+    outline: #00C4F4 1px double;
+}
+
+button {
+    margin-top: 15px;
+    width: 100%;
+    display: block;
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    /*font-size: 20px;*/
+    color: white;
+    background: #00C4F4;
+    border-radius: 4px;
+    border: 0;
+    /*padding: 5px 10px;*/
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 1200px) {
+    .main {
+        background: #00C4F4;
+    }
+
+    header {
+        padding: 35px 70px;
+    }
+
+    .logo-text {
+        font-family: Roboto, sans-serif;
+        font-size: 40px;
+        font-weight: 700;
+        color: white;
+        text-transform: lowercase;
+        letter-spacing: -1.3px;
+        line-height: 40px;
+    }
+
+    main {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        padding: 40px 150px;
+    }
+
+    .half-column {
+        flex: 0 0 50%;
+        padding: 0 50px;
+    }
+
+    .large-title {
+        font-family: Lato, sans-serif;
+        font-size: 4.5em;
+        font-weight: 900;
+        text-transform: uppercase;
+        margin-bottom: 0;
+        color: white;
+    }
+
+    main hr {
+        border: 0;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        height: 3px;
+        background: white;
+        width: 90%;
+        margin-left: 10px;
+        margin-top: 15px;
+    }
+
+    main h4 {
+        font-family: Lato, sans-serif;
+        font-weight: 300;
+        font-size: 3.5em;
+        text-transform: uppercase;
+        color: white;
+        margin-top: 30px;
+    }
+
+    main img {
+        width: 100%;
+        height: auto;
+    }
+
+    .follow-up {
+        background: #E8E53E;
+        padding: 50px 0;
+    }
+
+    .follow-up-text {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .follow-up p {
+        font-family: Lato, sans-serif;
+        font-size: 22px;
+        color: #354e4e;
+        text-align: center;
+    }
+
+    .form {
+        padding: 100px 0;
+    }
+
+    form {
+        width: 30%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    label {
+        font-family: Roboto, sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+    }
+
+    input {
+        margin-top: 10px;
+        width: 100%;
+        display: block;
+        font-family: Roboto, sans-serif;
+        font-weight: 700;
+        font-size: 24px;
+        color: #00C4F4;
+        border: 1px solid lightgray;
+        border-radius: 4px;
+        outline: 0;
+    }
+
+    input:focus {
+        outline: #00C4F4 1px double;
+    }
+
+    button {
+        margin-top: 15px;
+        width: 100%;
+        display: block;
+        font-family: Roboto, sans-serif;
+        font-weight: 700;
+        font-size: 20px;
+        color: white;
+        background: #00C4F4;
+        border-radius: 4px;
+        border: 0;
+        padding: 5px 10px;
+        cursor: pointer;
+    }
+}
+
+/* Media queries */
+@media only screen and (max-width: 480px) {
+    header {
+        padding: 30px 15px;
+    }
+
+    .logo-text {
+        margin: 0;
+        text-align: center;
+    }
+
+    main {
+        padding: 15px 15px 50px 15px;
+        flex-direction: column;
+    }
+
+    .half-column {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+
+    .large-title {
+        font-size: 2em;
+        font-weight: 900;
+        text-transform: uppercase;
+        line-height: normal;
+        text-align: center;
+    }
+
+    hr {
+        margin: 15px auto;
+        width: 90%;
+    }
+
+    h4 {
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    main img {
+        width: 90%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .follow-up {
+        padding: 50px 15px;
+    }
+
+    .form {
+        padding: 50px 15px;
+    }
+
+    form {
+        width: 80%;
+    }
+
+    input {
+        padding: 10px;
+    }
+
+    button {
+        padding: 7px 10px;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    header {
+        padding: 30px 15px;
+    }
+
+    .logo-text {
+        margin: 0;
+        text-align: center;
+    }
+
+    main {
+        padding: 15px 15px 50px 15px;
+        flex-direction: column;
+    }
+
+    .half-column {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+
+    .large-title {
+        font-size: 3em;
+        font-weight: 900;
+        text-transform: uppercase;
+        line-height: normal;
+        text-align: center;
+    }
+
+    hr {
+        margin: 15px auto;
+        width: 90%;
+    }
+
+    h4 {
+        text-align: center;
+        font-size: 2.1em;
+    }
+
+    main img {
+        width: 90%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .follow-up {
+        padding: 50px 15px;
+    }
+
+    .follow-up-text {
+        width: 50%;
+    }
+
+    p {
+        font-size: 1.5em;
+    }
+
+    .form {
+        padding: 50px 15px;
+    }
+
+    form {
+        width: 50%;
+    }
+
+    input {
+        padding: 10px;
+    }
+
+    button {
+        padding: 10px;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    header {
+        padding: 30px 15px;
+    }
+
+    .logo-text {
+        margin: 0;
+        text-align: left;
+    }
+
+    main {
+        padding: 15px 15px 50px 15px;
+        flex-direction: row;
+    }
+
+    .half-column {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+
+    .large-title {
+        font-size: 3.5em;
+        font-weight: 900;
+        text-transform: uppercase;
+        line-height: normal;
+        text-align: center;
+    }
+
+    hr {
+        margin: 15px auto;
+        width: 70%;
+    }
+
+    h4 {
+        text-align: center;
+        font-size: 2.5em;
+    }
+
+    main img {
+        width: 90%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .follow-up {
+        padding: 50px 15px;
+    }
+
+    .follow-up-text {
+        width: 50%;
+    }
+
+    p {
+        font-size: 1.5em;
+    }
+
+    .form {
+        padding: 50px 15px;
+    }
+
+    form {
+        width: 50%;
+    }
+
+    input {
+        padding: 10px;
+    }
+
+    button {
+        padding: 10px;
+    }
+}
