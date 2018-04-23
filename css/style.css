@@ -553,3 +553,11 @@ input:focus {
     padding: 10px;
   }
 }
+footer {
+  padding:20px 0;
+}
+.contact-info {
+  text-align:center;
+  font-family: Roboto, sans-serif;
+  color:#555;
+}
