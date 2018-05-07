@@ -1,0 +1,19 @@
+@media screen and (max-width:800px) {
+  .hero {
+    padding:350px 0;
+    height:100%;
+  }
+  .hero-title {
+    font-size:200%;
+  }
+  .logo {
+    width:200px;
+    height:200px;
+  }
+  .arrow-down {
+    display:none;
+  }
+  section {
+    padding:50px 0;
+  }
+}
