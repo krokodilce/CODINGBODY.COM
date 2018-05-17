@@ -805,7 +805,8 @@ section {
 
 @media screen and (max-width: 800px) {
   .hero {
-    height: 98vh; }
+    height: 100%;
+    padding: 450px 0; }
   .hero-title {
     font-size: 200%; }
   .logo {
