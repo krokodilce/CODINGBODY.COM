@@ -633,8 +633,18 @@ section {
 .hero {
   background: #00c4f4;
   height: 98vh;
-  position: relative;
-  padding: 0; }
+  position: relative; }
+
+.hero-message {
+  color: #fff;
+  padding: 5px;
+  text-transform: capitalize;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: end;
+      justify-content: flex-end;
+  margin-right: 13%;
+  letter-spacing: 1px; }
 
 .hero-holder {
   position: absolute;
@@ -652,7 +662,8 @@ section {
 .hero-img {
   text-align: center; }
 
-.hero-desc, .hero-outro-text {
+.hero-desc,
+.hero-outro-text {
   color: #fff;
   text-align: center; }
 
@@ -676,7 +687,8 @@ section {
 .program-plan {
   background: #e8e53e; }
 
-.program-plan-desc, .program-plan-outro {
+.program-plan-desc,
+.program-plan-outro {
   text-align: center;
   max-width: 900px;
   margin-left: auto;
@@ -793,8 +805,7 @@ section {
 
 @media screen and (max-width: 800px) {
   .hero {
-    padding: 350px 0;
-    height: 100%; }
+    height: 98vh; }
   .hero-title {
     font-size: 200%; }
   .logo {
@@ -803,4 +814,8 @@ section {
   .arrow-down {
     display: none; }
   section {
-    padding: 50px 0; } }
+    padding: 50px 0; }
+  .hero-message {
+    -ms-flex-pack: center;
+        justify-content: center;
+    margin-right: 0; } }
