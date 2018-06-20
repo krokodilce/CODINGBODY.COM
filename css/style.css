@@ -11,7 +11,35 @@ body {
 .main {
   background: #00c4f4;
 }
-
+.social-networks > div {
+  margin-left: 16.66666667%;
+  width: 66.6666667%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fa {
+  font-size: 30px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  padding: 10px;
+  margin-right: 20px;
+  margin-left:20px;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
 /*header {*/
 /*padding: 35px 70px;*/
 /*}*/
@@ -149,6 +177,10 @@ input:focus {
     padding: 35px 70px;
   }
 
+  .social-networks > div {
+    width: 33.333333%;
+    margin-left: 33.3333333%;
+  }
   .logo-text {
     font-family: Roboto, sans-serif;
     font-size: 40px;
